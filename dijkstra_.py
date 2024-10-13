@@ -36,7 +36,6 @@ def dijkstra(nodes, edges, start, end):
                         check_weight = unexplored[path[0][1]] + path[1]
                         if check_weight < unexplored[path[0][0]]:
                             unexplored[path[0][0]] = check_weight
-            print(unexplored)
             del unexplored[explore]
     return(unexplored[explore])
 
