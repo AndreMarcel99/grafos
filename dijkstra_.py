@@ -41,7 +41,7 @@ def dijkstra(nodes, edges, start, end):
     return(unexplored[explore])
 
 def main():
-    path = "grafo_ponderado.txt"
+    path = ""
     nodes, edges = get_information(path)
     new_edges = []
     for edge in edges:
